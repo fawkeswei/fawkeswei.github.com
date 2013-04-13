@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Android | fawkeswei's blog]]></title>
-  <link href="http://fawkeswei.github.com/categories/android/atom.xml" rel="self"/>
-  <link href="http://fawkeswei.github.com/"/>
-  <updated>2013-04-13T23:56:03+08:00</updated>
-  <id>http://fawkeswei.github.com/</id>
+  <link href="http://blog.fawkeswei.com/categories/android/atom.xml" rel="self"/>
+  <link href="http://blog.fawkeswei.com/"/>
+  <updated>2013-04-14T00:01:06+08:00</updated>
+  <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[PinCall for iOS/Android「搜尋篇」]]></title>
-    <link href="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
+    <link href="http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
     <updated>2012-11-11T20:28:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
+    <id>http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
 
 <p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: CocoaPods | fawkeswei's blog]]></title>
-  <link href="http://fawkeswei.github.com/categories/cocoapods/atom.xml" rel="self"/>
-  <link href="http://fawkeswei.github.com/"/>
-  <updated>2013-04-13T23:56:03+08:00</updated>
-  <id>http://fawkeswei.github.com/</id>
+  <link href="http://blog.fawkeswei.com/categories/cocoapods/atom.xml" rel="self"/>
+  <link href="http://blog.fawkeswei.com/"/>
+  <updated>2013-04-14T00:01:06+08:00</updated>
+  <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GoogleMapsKit - Launch Google Maps for iPhone From Your App]]></title>
-    <link href="http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
+    <link href="http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
     <updated>2012-12-17T15:29:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
+    <id>http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
     <content type="html"><![CDATA[<p>Google released its hot new <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with <a href="https://developers.google.com/maps/documentation/ios/urlscheme">custom url support</a>. Wanted to support this feature in multiple apps so I wrote this little wrapper called <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a>. Using <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> should be pretty easy but a nice little tutorial would never hurt so I wrote this. A demo project is also included in the Github <a href="https://github.com/fawkeswei/GoogleMapsKit">repo</a> if you need working example code.</p>
 
 <h3>Install</h3>

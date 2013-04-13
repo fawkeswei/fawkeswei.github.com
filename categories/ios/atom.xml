@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: iOS | fawkeswei's blog]]></title>
-  <link href="http://fawkeswei.github.com/categories/ios/atom.xml" rel="self"/>
-  <link href="http://fawkeswei.github.com/"/>
-  <updated>2013-04-13T23:56:03+08:00</updated>
-  <id>http://fawkeswei.github.com/</id>
+  <link href="http://blog.fawkeswei.com/categories/ios/atom.xml" rel="self"/>
+  <link href="http://blog.fawkeswei.com/"/>
+  <updated>2013-04-14T00:01:06+08:00</updated>
+  <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Assertions]]></title>
-    <link href="http://fawkeswei.github.com/2013/02/26/assertions/"/>
+    <link href="http://blog.fawkeswei.com/2013/02/26/assertions/"/>
     <updated>2013-02-26T23:16:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/02/26/assertions</id>
+    <id>http://blog.fawkeswei.com/2013/02/26/assertions</id>
     <content type="html"><![CDATA[<p>相較於其他平台，要在 iOS 上面要做測試很困難。不管是因為沒有好的工具、沒有好的教學、沒有時間或是種種原因。但是至少要在程式碼中插入 assertions，不但可以大幅增進程式的穩定度並減少 bug 數量。</p>
 
 <h3>何謂 Assertions</h3>
@@ -51,9 +51,9 @@ Assertion 一定要過程式才能跑，因此 <strong>assertion 就是最即時
   
   <entry>
     <title type="html"><![CDATA[Crashlytics: Crash Reporting Service for iOS Apps]]></title>
-    <link href="http://fawkeswei.github.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/"/>
+    <link href="http://blog.fawkeswei.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/"/>
     <updated>2013-01-28T23:33:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps</id>
+    <id>http://blog.fawkeswei.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://try.crashlytics.com/images/media_kit/crashlytics-logo-low-res-on-white.png"></p>
 
 <p>程式總是難免會有 bug，要抓到漏網之魚，除了努力<del>讓使用者幫你</del>測試之外，必備工具就是 <a href="https://www.crashlytics.com">Crashlytics</a> 了。手頭上兩個 iOS 專案使用了接近兩個月以來，都沒有碰到什麼問題，推薦 iOS 開發者一定要用！</p>
@@ -82,9 +82,9 @@ Assertion 一定要過程式才能跑，因此 <strong>assertion 就是最即時
   
   <entry>
     <title type="html"><![CDATA[GoogleMapsKit - Launch Google Maps for iPhone From Your App]]></title>
-    <link href="http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
+    <link href="http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
     <updated>2012-12-17T15:29:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
+    <id>http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
     <content type="html"><![CDATA[<p>Google released its hot new <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with <a href="https://developers.google.com/maps/documentation/ios/urlscheme">custom url support</a>. Wanted to support this feature in multiple apps so I wrote this little wrapper called <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a>. Using <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> should be pretty easy but a nice little tutorial would never hurt so I wrote this. A demo project is also included in the Github <a href="https://github.com/fawkeswei/GoogleMapsKit">repo</a> if you need working example code.</p>
 
 <h3>Install</h3>
@@ -157,9 +157,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[PinCall for iOS/Android「搜尋篇」]]></title>
-    <link href="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
+    <link href="http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
     <updated>2012-11-11T20:28:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
+    <id>http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
 
 <p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>
@@ -227,9 +227,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[新手慘案 - App 送審通過後才發現誤連 development server]]></title>
-    <link href="http://fawkeswei.github.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/"/>
+    <link href="http://blog.fawkeswei.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/"/>
     <updated>2012-10-27T17:06:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server</id>
+    <id>http://blog.fawkeswei.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server</id>
     <content type="html"><![CDATA[<h3>案情始末</h3>
 
 <p>目前正在寫的某個 iOS 專案一如往常開了兩台伺服器 (development server, production server)，也開開心心送審了。難得這次只有審一個禮拜就通過了，卻在準備上架前發現居然是連到 development server！ 一個失誤，白白浪費了一個多禮拜的時間…</p>

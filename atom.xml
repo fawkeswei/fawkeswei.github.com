@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[fawkeswei's blog]]></title>
-  <link href="http://fawkeswei.github.com/atom.xml" rel="self"/>
-  <link href="http://fawkeswei.github.com/"/>
-  <updated>2013-04-13T23:56:03+08:00</updated>
-  <id>http://fawkeswei.github.com/</id>
+  <link href="http://blog.fawkeswei.com/atom.xml" rel="self"/>
+  <link href="http://blog.fawkeswei.com/"/>
+  <updated>2013-04-14T00:01:06+08:00</updated>
+  <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[使用 Fabric 自動佈署 Flask App]]></title>
-    <link href="http://fawkeswei.github.com/2013/04/13/using-fabric-to-deploy-python-web-apps/"/>
+    <link href="http://blog.fawkeswei.com/2013/04/13/using-fabric-to-deploy-python-web-apps/"/>
     <updated>2013-04-13T22:50:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/04/13/using-fabric-to-deploy-python-web-apps</id>
+    <id>http://blog.fawkeswei.com/2013/04/13/using-fabric-to-deploy-python-web-apps</id>
     <content type="html"><![CDATA[<p>最近用 <a href="flask.pocoo.org">Flask</a> 寫了 <a href="http://whocall.com">WhosCall 網頁版</a>，基於想偷懶的理由而找了一個工具可以很方便佈署到伺服器上，那就是 <a href="http://docs.fabfile.org/">Fabric</a>。它可以很方便在本機端、伺服器上執行指令 &amp; 上傳檔案，設定起來也很簡單。</p>
 
 <h3>基本使用方法</h3>
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[Assertions]]></title>
-    <link href="http://fawkeswei.github.com/2013/02/26/assertions/"/>
+    <link href="http://blog.fawkeswei.com/2013/02/26/assertions/"/>
     <updated>2013-02-26T23:16:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/02/26/assertions</id>
+    <id>http://blog.fawkeswei.com/2013/02/26/assertions</id>
     <content type="html"><![CDATA[<p>相較於其他平台，要在 iOS 上面要做測試很困難。不管是因為沒有好的工具、沒有好的教學、沒有時間或是種種原因。但是至少要在程式碼中插入 assertions，不但可以大幅增進程式的穩定度並減少 bug 數量。</p>
 
 <h3>何謂 Assertions</h3>
@@ -93,9 +93,9 @@ Assertion 一定要過程式才能跑，因此 <strong>assertion 就是最即時
   
   <entry>
     <title type="html"><![CDATA[Markdown 簡介]]></title>
-    <link href="http://fawkeswei.github.com/2013/02/21/markdown-intro/"/>
+    <link href="http://blog.fawkeswei.com/2013/02/21/markdown-intro/"/>
     <updated>2013-02-21T22:05:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/02/21/markdown-intro</id>
+    <id>http://blog.fawkeswei.com/2013/02/21/markdown-intro</id>
     <content type="html"><![CDATA[<p>Markdown 的目的就是要提供一種語法，容易讀、容易寫、還能輕鬆轉換成 html。因此 Markdown 完全由文字和標點符號所組成，不會出現 <code>&lt;h2&gt;標題&lt;/h2&gt;</code> 這種東西。舉個簡單的例子，底下大約 10 行的文字，即使第一次看到 Markdown 文件的人應該都能輕易看懂。</p>
 
 <pre><code>##標題
@@ -148,9 +148,9 @@ Assertion 一定要過程式才能跑，因此 <strong>assertion 就是最即時
   
   <entry>
     <title type="html"><![CDATA[Crashlytics: Crash Reporting Service for iOS Apps]]></title>
-    <link href="http://fawkeswei.github.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/"/>
+    <link href="http://blog.fawkeswei.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/"/>
     <updated>2013-01-28T23:33:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps</id>
+    <id>http://blog.fawkeswei.com/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://try.crashlytics.com/images/media_kit/crashlytics-logo-low-res-on-white.png"></p>
 
 <p>程式總是難免會有 bug，要抓到漏網之魚，除了努力<del>讓使用者幫你</del>測試之外，必備工具就是 <a href="https://www.crashlytics.com">Crashlytics</a> 了。手頭上兩個 iOS 專案使用了接近兩個月以來，都沒有碰到什麼問題，推薦 iOS 開發者一定要用！</p>
@@ -179,9 +179,9 @@ Assertion 一定要過程式才能跑，因此 <strong>assertion 就是最即時
   
   <entry>
     <title type="html"><![CDATA[GoogleMapsKit - Launch Google Maps for iPhone From Your App]]></title>
-    <link href="http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
+    <link href="http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
     <updated>2012-12-17T15:29:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
+    <id>http://blog.fawkeswei.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
     <content type="html"><![CDATA[<p>Google released its hot new <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with <a href="https://developers.google.com/maps/documentation/ios/urlscheme">custom url support</a>. Wanted to support this feature in multiple apps so I wrote this little wrapper called <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a>. Using <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> should be pretty easy but a nice little tutorial would never hurt so I wrote this. A demo project is also included in the Github <a href="https://github.com/fawkeswei/GoogleMapsKit">repo</a> if you need working example code.</p>
 
 <h3>Install</h3>
@@ -254,9 +254,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[PunApp InstALL | Pack 4 - PinCall 分享]]></title>
-    <link href="http://fawkeswei.github.com/2012/12/13/punapp-install-pack-4-pincall/"/>
+    <link href="http://blog.fawkeswei.com/2012/12/13/punapp-install-pack-4-pincall/"/>
     <updated>2012-12-13T01:37:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/12/13/punapp-install-pack-4-pincall</id>
+    <id>http://blog.fawkeswei.com/2012/12/13/punapp-install-pack-4-pincall</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://lh5.googleusercontent.com/-nMidXUtWfaA/UMtmDO0NMDI/AAAAAAAANhc/33qA1tJW82U/s480/PunApp_InstALL.001.png"></p>
 
 <p>感謝 <a href="http://punapp.com/">PunApp</a> 給我這個機會分享 <a href="http://pincall.me">PinCall</a> 一路走來的點點滴滴，自從畢業以來幾乎沒有再上台分享過什麼了。為了這次的分享而動手整理了散落各地的討論記錄、截圖、git commit log 等等，等於是把自己這幾的月以來的成果做一個總整理，也算是額外的小收獲。講著 <a href="http://pincall.me">PinCall</a> 一路走來的改變、決策方式、介面設計、服務整合等等還蠻有趣的，不過也可以看得出來還有很長的路要走，不知道明年的這個時候 <a href="http://pincall.me">PinCall</a> 會變成什麼樣子？連我自己都很期待啊！</p>
@@ -267,9 +267,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[PinCall for iOS/Android「搜尋篇」]]></title>
-    <link href="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
+    <link href="http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
     <updated>2012-11-11T20:28:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
+    <id>http://blog.fawkeswei.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
 
 <p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>
@@ -337,9 +337,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[Submitted Open Graph Action Showing Status: "Active"]]></title>
-    <link href="http://fawkeswei.github.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/"/>
+    <link href="http://blog.fawkeswei.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/"/>
     <updated>2012-11-05T22:52:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash</id>
+    <id>http://blog.fawkeswei.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash</id>
     <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-ZHZj8TNcpsU/UJ_kkCHcmjI/AAAAAAAANHk/J4cnW6LWC50/s800/Screen%2520Shot%25202012-11-12%2520at%25201.46.09%2520AM.png" title="Open Graph Showing \&#34;Active\&#34;" alt="Open Graph Showing \&#34;Active\&#34;"></p>
 
 <p>Open Graph action submission status became &#8220;Active&#8221; after a few days of submission. I&#8217;ve searched through Facebook&#8217;s <a href="https://developers.facebook.com/docs/">docs</a> and found nothing mentioning this kind of status. Also, nobody is talking about this in <a href="http://stackoverflow.com/search?q=open+graph+action+active">Stackoverflow</a>, which is pretty odd. I thought active!=approved so I kept on waiting…</p>
@@ -357,9 +357,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[新手慘案 - App 送審通過後才發現誤連 development server]]></title>
-    <link href="http://fawkeswei.github.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/"/>
+    <link href="http://blog.fawkeswei.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/"/>
     <updated>2012-10-27T17:06:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server</id>
+    <id>http://blog.fawkeswei.com/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server</id>
     <content type="html"><![CDATA[<h3>案情始末</h3>
 
 <p>目前正在寫的某個 iOS 專案一如往常開了兩台伺服器 (development server, production server)，也開開心心送審了。難得這次只有審一個禮拜就通過了，卻在準備上架前發現居然是連到 development server！ 一個失誤，白白浪費了一個多禮拜的時間…</p>
@@ -419,9 +419,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[How to post json data using AFNetworking]]></title>
-    <link href="http://fawkeswei.github.com/2012/09/26/how-to-post-json-data-using-afnetworking/"/>
+    <link href="http://blog.fawkeswei.com/2012/09/26/how-to-post-json-data-using-afnetworking/"/>
     <updated>2012-09-26T21:07:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/09/26/how-to-post-json-data-using-afnetworking</id>
+    <id>http://blog.fawkeswei.com/2012/09/26/how-to-post-json-data-using-afnetworking</id>
     <content type="html"><![CDATA[<p>This should be easy but cost me some time to figure it out.</p>
 
 <p>AFNetworking has a ivar <code>parameterEncoding</code> that need to be set explicitly to <code>AFJSONParameterEncoding</code> and everything works as it should.</p>
@@ -433,9 +433,9 @@ typedef enum {
   
   <entry>
     <title type="html"><![CDATA[Octopress customizations after install]]></title>
-    <link href="http://fawkeswei.github.com/2012/09/19/octopress-customizations-after-install/"/>
+    <link href="http://blog.fawkeswei.com/2012/09/19/octopress-customizations-after-install/"/>
     <updated>2012-09-19T20:50:00+08:00</updated>
-    <id>http://fawkeswei.github.com/2012/09/19/octopress-customizations-after-install</id>
+    <id>http://blog.fawkeswei.com/2012/09/19/octopress-customizations-after-install</id>
     <content type="html"><![CDATA[<ul>
 <li>Remove blog subfolder
 
@@ -443,7 +443,7 @@ typedef enum {
 <li><code>permalink: /:year/:month/:day/:title/</code></li>
 <li><code>category_dir: categories</code></li>
 <li><code>pagination_dir: #leave it blank</code></li>
-<li>in <code>source/index.html</code> <code>&lt;a href="http://fawkeswei.github.com/archives"&gt;Blog Archives&lt;/a&gt;</code></li>
+<li>in <code>source/index.html</code> <code>&lt;a href="http://blog.fawkeswei.com/archives"&gt;Blog Archives&lt;/a&gt;</code></li>
 </ul>
 </li>
 <li>Change theme
