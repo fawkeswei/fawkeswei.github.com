@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: CocoaPods | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/cocoapods/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[GoogleMapsKit - Launch Google Maps for iPhone From Your App]]></title>
+    <link href="http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/"/>
+    <updated>2012-12-17T15:29:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app</id>
+    <content type="html"><![CDATA[<p>Google released its hot new <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with <a href="https://developers.google.com/maps/documentation/ios/urlscheme">custom url support</a>. Wanted to support this feature in multiple apps so I wrote this little wrapper called <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a>. Using <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> should be pretty easy but a nice little tutorial would never hurt so I wrote this. A demo project is also included in the Github <a href="https://github.com/fawkeswei/GoogleMapsKit">repo</a> if you need working example code.</p>
+
+<h3>Install</h3>
+
+<ol>
+<li>Use <a href="http://www.cocoapods.org/">Cocoapods</a> (recommended)</li>
+<li>Drag GoogleMapsKit folder to your project.</li>
+</ol>
+
+
+<h3>Usage</h3>
+
+<p>Check if <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> is installed on user's device.</p>
+
+<pre><code>if ([GoogleMapsKit isGoogleMapsInstalled]) {
+    // Google Maps Installed!
+} 
+</code></pre>
+
+<!-- more -->
+
+
+<p>Launch <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with designated coordinate.</p>
+
+<pre><code>[GoogleMapsKit showMapWithCenter:CLLocationCoordinate2DMake(25.0, 121.5)
+                            zoom:14];
+</code></pre>
+
+<p>Several parameters can be provided to customize default looks at launch.</p>
+
+<pre><code>typedef enum {
+    GoogleMapsViewSatellite,
+    GoogleMapsViewTraffic,
+    GoogleMapsViewTransit,
+    GoogleMapsViewClearAll,
+} GoogleMapsView;
+
+typedef enum {
+    GoogleMapsModeDefault,
+    GoogleMapsModeStandard,
+    GoogleMapsModeStreetView,
+} GoogleMapsMode;
+</code></pre>
+
+<p>Search <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with keyword. <del><strong>Notice that you have to url encode your keyword string if you are not using alphanumeric characters.</strong></del> (no need for this since v1.0.1)</p>
+
+<pre><code>[GoogleMapsKit showMapWithSearchKeyword:@"Starbucks"
+                             withCenter:CLLocationCoordinate2DMake(25.0, 121.5)
+                                   zoom:15];
+</code></pre>
+
+<p>As usual, additional parameters can be provided if you wish.</p>
+
+<h3>Future Enhancements</h3>
+
+<ol>
+<li><del>More convenience methods</del> (done in v1.0.1)</li>
+<li><del>Launch Google Maps with directions</del> (done in v1.0.3)</li>
+<li><del>Url encode keyword string</del> (done in v1.0.1)</li>
+</ol>
+
+
+<h3>License</h3>
+
+<p><a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> is available under the MIT license.</p>
+
+<blockquote><blockquote><p>Happy Coding!</p></blockquote></blockquote>
+]]></content>
+  </entry>
+  
+</feed>

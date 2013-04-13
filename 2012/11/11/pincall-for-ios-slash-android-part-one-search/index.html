@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>PinCall for iOS/Android「搜尋篇」 - fawkeswei's blog</title>
+  <meta name="author" content="fawkeswei">
+
+  
+  <meta name="description" content="PinCall 是我進 Gogolook Inc. 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。 PinCall 主打：超強搜尋 不管你在哪裡，不管是已經打定主意要吃王品，或者只是突然想吃日式料理，PinCall 都可以迅速幫你找到！不囉嗦直接看實際用起來的結果吧！ &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/fawkeswei" rel="alternate" title="fawkeswei's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37320586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">fawkeswei's blog</a></h1>
+  
+    <h2>Best Practice Makes Perfect</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/fawkeswei" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fawkeswei.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+<!--   <li><a href="http://www.flickr.com/photos/fawkeswei/">Photography</a></li> -->
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">PinCall for iOS/Android「搜尋篇」</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-11T20:28:00+08:00" pubdate data-updated="true">Nov 11, 2012 20:28:00</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
+
+<p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>
+
+<h2>PinCall 主打：超強搜尋</h2>
+
+<p>不管你在哪裡，不管是已經打定主意要吃王品，或者只是突然想吃日式料理，<a href="http://pincall.me">PinCall</a> 都可以迅速幫你找到！不囉嗦直接看實際用起來的結果吧！</p>
+
+<h4>精準找出公館附近所有的星巴克</h4>
+
+<p><img class="center" src="https://lh6.googleusercontent.com/-h1PBE6q6qzY/UJ9mSQkF-xI/AAAAAAAANEk/xDUi4M1WVjQ/s640/IMG_0561.PNG" title="搜尋公館附近的星巴克" ></p>
+
+<!-- more -->
+
+
+<h4>當然也可以用大分類去搜尋，例如：附近有賣生魚片的餐廳、忠孝東路附近的拉麵、公館附近的吃到飽等等</h4>
+
+<ul>
+<li><p>附近有賣生魚片的餐廳
+<img class="center" src="https://lh4.googleusercontent.com/-rIysFjGxMQs/UJ9isBvYavI/AAAAAAAANDo/7O7tXiqVp1Y/s640/IMG_0425.PNG" title="搜尋附近有賣生魚片的餐廳" ></p></li>
+<li><p>忠孝東路附近好吃的拉麵
+<img class="center" src="https://lh3.googleusercontent.com/-vUxdLo2VN-E/UJ9nj0sM5XI/AAAAAAAANEw/muilbS4dqso/s640/IMG_0563.PNG" title="搜尋忠孝東路附近好吃的拉麵" ></p></li>
+<li><p>公館附近的吃到飽
+<img class="center" src="https://lh5.googleusercontent.com/-THXvLc1qygE/UJ9nj3mqn4I/AAAAAAAANEs/v7fK_oDNXVA/s640/IMG_0562.PNG" title="搜尋公館附近的吃到飽" ></p></li>
+</ul>
+
+
+<h4>其實不只是吃的，基本上打什麼東西都可以搜尋得到，銀行、眼科、書店也都可以找的的到！</h4>
+
+<ul>
+<li><p>敦化南路附近的銀行
+<img class="center" src="https://lh6.googleusercontent.com/-OTz6loGpA3E/UJ9qTdnNVmI/AAAAAAAANFQ/7MXtF8vBWMk/s640/IMG_0565.PNG" title="搜尋敦化南路附近的銀行" ></p></li>
+<li><p>和平東路附近的眼科
+<img class="center" src="https://lh3.googleusercontent.com/-OiqbUbhOkTc/UJ9qTGfDvFI/AAAAAAAANFM/VDHB4Y3EV40/s640/IMG_0564.PNG" title="搜尋和平東路附近的眼科" ></p></li>
+<li><p>敦化南路附近的書店
+<img class="center" src="https://lh3.googleusercontent.com/-wc1iAy8r504/UJ9qTFCLvrI/AAAAAAAANFU/iGrpaB4Y0zc/s640/IMG_0566.PNG" title="搜尋敦化南路附近的書店" ></p></li>
+</ul>
+
+
+<h4>你以為只有這樣嗎？還有更厲害的</h4>
+
+<ul>
+<li><p>完全不知道有什麼吃的，直接打一個吃就搞定！
+<img class="center" src="https://lh5.googleusercontent.com/-zWcYXxgDZfI/UJ9qUNDVuwI/AAAAAAAANFg/B2KRJaa0eIs/s640/IMG_0568.PNG" title="搜尋南澳附近好吃的" ></p></li>
+<li><p>在公館午餐可以吃什麼呢？
+<img class="center" src="https://lh5.googleusercontent.com/-llQ1uo4wUHw/UJ9qT7NuIAI/AAAAAAAANFY/YgHpNEDKEPI/s640/IMG_0567.PNG" title="搜尋在公館附近午餐可以吃什麼呢？" ></p></li>
+</ul>
+
+
+<h4>搜尋的結果點進去就是整理好的網誌、網頁，還可以直接打電話訂位或是看地圖，超級方便！</h4>
+
+<p><img class="center" src="https://lh4.googleusercontent.com/-NpOcWfYm1TQ/UJ9xBc7_KoI/AAAAAAAANGQ/kLxmpQgNdR8/s640/IMG_0569.PNG" title="福岡拉麵詳細資料" ></p>
+
+<h2>這麼好用還不快下載！</h2>
+
+<p><a href="https://itunes.apple.com/tw/app/pincall/id554578359"><img src="https://lh6.googleusercontent.com/-6Nqi9Bfsn9E/UJ-CBqsIjsI/AAAAAAAANGg/5G74Cd74Ass/s400/Available_on_the_App_Store_%2528black%2529.png" alt="iTunes" /></a></p>
+
+<p><a href="https://play.google.com/store/apps/details?id=gogolook.pincall2"><img src="https://lh5.googleusercontent.com/-xdPXkpfbNis/UJ-C41X-y2I/AAAAAAAANGo/kRQug5C-pqo/s800/en_generic_rgb_wo_60.png" alt="Google Play" /></a></p>
+
+<p><a href="http://pincall.me">官方網站</a></p>
+
+<p>這只是 <a href="http://pincall.me">PinCall</a> 的一小部分而已，還有更強大的功能下次再繼續介紹，趕快先去玩看看 <a href="http://pincall.me">PinCall</a> 吧！</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">fawkeswei</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-11T20:28:00+08:00" pubdate data-updated="true">Nov 11, 2012 20:28:00</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/android/'>Android</a>, <a class='category' href='/categories/gogolook/'>Gogolook</a>, <a class='category' href='/categories/pincall/'>PinCall</a>, <a class='category' href='/categories/ios/'>iOS</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/" data-via="fawkeswei" data-counturl="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/" title="Previous Post: Submitted Open Graph Action Showing Status: "Active"">&laquo; Submitted Open Graph Action Showing Status: "Active"</a>
+      
+      
+        <a class="basic-alignment right" href="/2012/12/13/punapp-install-pack-4-pincall/" title="Next Post: PunApp InstALL | Pack 4 - PinCall 分享">PunApp InstALL | Pack 4 - PinCall 分享 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section class="">
+  <h1>
+    Fawkes Wei
+  </h1>
+  <p>Developer at <a href="http://www.gogolook.com.tw/">Gogolook Co., Inc.</a></p>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/04/13/using-fabric-to-deploy-python-web-apps/">使用 Fabric 自動佈署 Flask App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/26/assertions/">Assertions</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/21/markdown-intro/">Markdown 簡介</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/">Crashlytics: Crash Reporting Service for iOS Apps</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/">GoogleMapsKit - Launch Google Maps for iPhone From Your App</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("fawkeswei", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/fawkeswei" class="twitter-follow-button" data-show-count="false">Follow @fawkeswei</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105244663711028732443?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - fawkeswei -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> and <a href="http://github.com">Github</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fawkeswei-blog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/';
+        var disqus_url = 'http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

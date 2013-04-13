@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: facebook | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/facebook/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Submitted Open Graph Action Showing Status: "Active"]]></title>
+    <link href="http://fawkeswei.github.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/"/>
+    <updated>2012-11-05T22:52:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash</id>
+    <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-ZHZj8TNcpsU/UJ_kkCHcmjI/AAAAAAAANHk/J4cnW6LWC50/s800/Screen%2520Shot%25202012-11-12%2520at%25201.46.09%2520AM.png" title="Open Graph Showing \&#34;Active\&#34;" alt="Open Graph Showing \&#34;Active\&#34;"></p>
+
+<p>Open Graph action submission status became "Active" after a few days of submission. I've searched through Facebook's <a href="https://developers.facebook.com/docs/">docs</a> and found nothing mentioning this kind of status. Also, nobody is talking about this in <a href="http://stackoverflow.com/search?q=open+graph+action+active">Stackoverflow</a>, which is pretty odd. I thought active!=approved so I kept on waiting…</p>
+
+<p>After one week, finally I decided to poke around with the app's setting, I clicked to view the details of the open graph action, this is what I saw</p>
+
+<!-- more -->
+
+
+<p><img class="center" src="https://lh5.googleusercontent.com/-1k19w1WpuHo/UJ_WXpDL_AI/AAAAAAAANHU/yFBGCNggb6s/s800/Screen%2520Shot%25202012-11-12%2520at%252012.45.47%2520AM.png" title="Open Graph Action Settings" ></p>
+
+<p>What the…, the open graph action was already approved when <strong>Active</strong> is shown. Please update your docs, Facebook!</p>
+]]></content>
+  </entry>
+  
+</feed>

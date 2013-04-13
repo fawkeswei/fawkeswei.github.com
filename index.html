@@ -1,1 +1,715 @@
-My Octopress Page is coming soon &hellip;
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>fawkeswei's blog</title>
+  <meta name="author" content="fawkeswei">
+
+  
+  <meta name="description" content="最近用 Flask 寫了 WhosCall 網頁版，基於想偷懶的理由而找了一個工具可以很方便佈署到伺服器上，那就是 Fabric。它可以很方便在本機端、伺服器上執行指令 &amp; 上傳檔案，設定起來也很簡單。 基本使用方法 安裝 pip install fabric
+新增一個檔案 fabfile &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fawkeswei.github.com/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/fawkeswei" rel="alternate" title="fawkeswei's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37320586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">fawkeswei's blog</a></h1>
+  
+    <h2>Best Practice Makes Perfect</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/fawkeswei" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fawkeswei.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+<!--   <li><a href="http://www.flickr.com/photos/fawkeswei/">Photography</a></li> -->
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/04/13/using-fabric-to-deploy-python-web-apps/">使用 Fabric 自動佈署 Flask App</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-13T22:50:00+08:00" pubdate data-updated="true">Apr 13, 2013 22:50:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>最近用 <a href="flask.pocoo.org">Flask</a> 寫了 <a href="http://whocall.com">WhosCall 網頁版</a>，基於想偷懶的理由而找了一個工具可以很方便佈署到伺服器上，那就是 <a href="http://docs.fabfile.org/">Fabric</a>。它可以很方便在本機端、伺服器上執行指令 &amp; 上傳檔案，設定起來也很簡單。</p>
+
+<h3>基本使用方法</h3>
+
+<ol>
+<li>安裝 <code>pip install fabric</code></li>
+<li>新增一個檔案 <code>fabfile.py</code> （下面是一個簡單的範例）</li>
+</ol>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2013/04/13/using-fabric-to-deploy-python-web-apps/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/02/26/assertions/">Assertions</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-26T23:16:00+08:00" pubdate data-updated="true">Feb 26, 2013 23:16:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>相較於其他平台，要在 iOS 上面要做測試很困難。不管是因為沒有好的工具、沒有好的教學、沒有時間或是種種原因。但是至少要在程式碼中插入 assertions，不但可以大幅增進程式的穩定度並減少 bug 數量。</p>
+
+<h3>何謂 Assertions</h3>
+
+<p>Assertion 是用來判定程式中的某個執行點必然是某個狀態，舉的例子</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2013/02/26/assertions/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/02/21/markdown-intro/">Markdown 簡介</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-21T22:05:00+08:00" pubdate data-updated="true">Feb 21, 2013 22:05:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Markdown 的目的就是要提供一種語法，容易讀、容易寫、還能輕鬆轉換成 html。因此 Markdown 完全由文字和標點符號所組成，不會出現 <code>&lt;h2&gt;標題&lt;/h2&gt;</code> 這種東西。舉個簡單的例子，底下大約 10 行的文字，即使第一次看到 Markdown 文件的人應該都能輕易看懂。</p>
+
+<pre><code>##標題
+###副標題
+
+內容、**粗體**、*鞋體* 
+
+1. item 1
+2. item 2
+</code></pre>
+
+<p>轉換成 html 的成果如下，格式漂亮也完全不需要 rich text editor 多方便！</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2013/02/21/markdown-intro/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/">Crashlytics: Crash Reporting Service for iOS Apps</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-28T23:33:00+08:00" pubdate data-updated="true">Jan 28, 2013 23:33:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="center" src="http://try.crashlytics.com/images/media_kit/crashlytics-logo-low-res-on-white.png"></p>
+
+<p>程式總是難免會有 bug，要抓到漏網之魚，除了努力<del>讓使用者幫你</del>測試之外，必備工具就是 <a href="https://www.crashlytics.com">Crashlytics</a> 了。手頭上兩個 iOS 專案使用了接近兩個月以來，都沒有碰到什麼問題，推薦 iOS 開發者一定要用！</p>
+
+<h3>優點</h3>
+
+<ul>
+<li>使用超級簡單，不用三分鐘就可以加到專案當中</li>
+<li>回報速度非常快，閃退之後不到一分鐘就會收到 email 通知</li>
+<li>自動幫你上傳 dSYM 檔案，不需要自己 symlink</li>
+<li>report 除了包含 crash log 之外，還會附上一些額外資訊。例如：iOS 版本、是否有 JB 等等</li>
+<li>完全免費，沒有任何使用限制</li>
+<li>介面賞心悅目，有設計感</li>
+</ul>
+
+
+<h3>缺點</h3>
+
+<p>目前使用兩個月下來沒有發現什麼缺點，真要說缺點的話大概就是開發機要裝 <a href="https://www.crashlytics.com">Crashlytics</a> 提供的 Mac App 吧。</p>
+
+<blockquote><p>馬上幫手頭上的專案都加入 <a href="https://www.crashlytics.com">Crashlytics</a> 吧！</p></blockquote>
+
+<p>註：目前官方網頁只讓你填 email 加入 waiting list，如果等不及的話直接寄信給客服，客服就會直接寄邀請給你囉！</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/">GoogleMapsKit - Launch Google Maps for iPhone From Your App</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-17T15:29:00+08:00" pubdate data-updated="true">Dec 17, 2012 15:29:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Google released its hot new <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> with <a href="https://developers.google.com/maps/documentation/ios/urlscheme">custom url support</a>. Wanted to support this feature in multiple apps so I wrote this little wrapper called <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a>. Using <a href="https://github.com/fawkeswei/GoogleMapsKit">GoogleMapsKit</a> should be pretty easy but a nice little tutorial would never hurt so I wrote this. A demo project is also included in the Github <a href="https://github.com/fawkeswei/GoogleMapsKit">repo</a> if you need working example code.</p>
+
+<h3>Install</h3>
+
+<ol>
+<li>Use <a href="http://www.cocoapods.org/">Cocoapods</a> (recommended)</li>
+<li>Drag GoogleMapsKit folder to your project.</li>
+</ol>
+
+
+<h3>Usage</h3>
+
+<p>Check if <a href="https://itunes.apple.com/us/app/google-maps/id585027354?mt=8">Google Maps for iPhone</a> is installed on user&#8217;s device.</p>
+
+<pre><code>if ([GoogleMapsKit isGoogleMapsInstalled]) {
+    // Google Maps Installed!
+} 
+</code></pre>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/12/13/punapp-install-pack-4-pincall/">PunApp InstALL | Pack 4 - PinCall 分享</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-13T01:37:00+08:00" pubdate data-updated="true">Dec 13, 2012 01:37:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="center" src="https://lh5.googleusercontent.com/-nMidXUtWfaA/UMtmDO0NMDI/AAAAAAAANhc/33qA1tJW82U/s480/PunApp_InstALL.001.png"></p>
+
+<p>感謝 <a href="http://punapp.com/">PunApp</a> 給我這個機會分享 <a href="http://pincall.me">PinCall</a> 一路走來的點點滴滴，自從畢業以來幾乎沒有再上台分享過什麼了。為了這次的分享而動手整理了散落各地的討論記錄、截圖、git commit log 等等，等於是把自己這幾的月以來的成果做一個總整理，也算是額外的小收獲。講著 <a href="http://pincall.me">PinCall</a> 一路走來的改變、決策方式、介面設計、服務整合等等還蠻有趣的，不過也可以看得出來還有很長的路要走，不知道明年的這個時候 <a href="http://pincall.me">PinCall</a> 會變成什麼樣子？連我自己都很期待啊！</p>
+
+<p>有興趣的人也可以看看當天分享的<a href="http://www.slideshare.net/fawkeswei/punapp-install-pack-4-pincall">投影片</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/11/11/pincall-for-ios-slash-android-part-one-search/">PinCall for iOS/Android「搜尋篇」</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-11T20:28:00+08:00" pubdate data-updated="true">Nov 11, 2012 20:28:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
+
+<p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>
+
+<h2>PinCall 主打：超強搜尋</h2>
+
+<p>不管你在哪裡，不管是已經打定主意要吃王品，或者只是突然想吃日式料理，<a href="http://pincall.me">PinCall</a> 都可以迅速幫你找到！不囉嗦直接看實際用起來的結果吧！</p>
+
+<h4>精準找出公館附近所有的星巴克</h4>
+
+<p><img class="center" src="https://lh6.googleusercontent.com/-h1PBE6q6qzY/UJ9mSQkF-xI/AAAAAAAANEk/xDUi4M1WVjQ/s640/IMG_0561.PNG" title="搜尋公館附近的星巴克" ></p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/11/11/pincall-for-ios-slash-android-part-one-search/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/">Submitted Open Graph Action Showing Status: &#8220;Active&#8221;</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-05T22:52:00+08:00" pubdate data-updated="true">Nov 05, 2012 22:52:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="center" src="https://lh4.googleusercontent.com/-ZHZj8TNcpsU/UJ_kkCHcmjI/AAAAAAAANHk/J4cnW6LWC50/s800/Screen%2520Shot%25202012-11-12%2520at%25201.46.09%2520AM.png" title="Open Graph Showing \&#34;Active\&#34;" alt="Open Graph Showing \&#34;Active\&#34;"></p>
+
+<p>Open Graph action submission status became &#8220;Active&#8221; after a few days of submission. I&#8217;ve searched through Facebook&#8217;s <a href="https://developers.facebook.com/docs/">docs</a> and found nothing mentioning this kind of status. Also, nobody is talking about this in <a href="http://stackoverflow.com/search?q=open+graph+action+active">Stackoverflow</a>, which is pretty odd. I thought active!=approved so I kept on waiting…</p>
+
+<p>After one week, finally I decided to poke around with the app&#8217;s setting, I clicked to view the details of the open graph action, this is what I saw</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/11/05/submitted-open-graph-action-showing-status-slash-active-slash/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/">新手慘案 - App 送審通過後才發現誤連 Development Server</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-27T17:06:00+08:00" pubdate data-updated="true">Oct 27, 2012 17:06:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>案情始末</h3>
+
+<p>目前正在寫的某個 iOS 專案一如往常開了兩台伺服器 (development server, production server)，也開開心心送審了。難得這次只有審一個禮拜就通過了，卻在準備上架前發現居然是連到 development server！ 一個失誤，白白浪費了一個多禮拜的時間…</p>
+
+<h3>為何送審之前的測試沒有抓出問題？</h3>
+
+<ul>
+<li><p>我用自己的 Log，會在 release build 的時候自己關閉，避免在 release 版本洩漏太多資料，類似這樣</p>
+
+<pre><code>  #ifdef DEBUG
+      #define MYLog(xx) NSLog(xx)
+  #else
+      // don't log anything when not in debug modes
+      #define MYLog(xx) void
+  #endif
+</code></pre></li>
+<li>送審版本 (也就是 release build) log 當然是全部關閉了，所以看 log 也無法發現連錯 server 了</li>
+<li>UI 也沒有地方顯示是 debug/release build</li>
+<li>Unit Test 測不出來</li>
+</ul>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/2012/10/27/stupid-mistake-by-a-rookie-approved-app-connected-to-development-server/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/09/26/how-to-post-json-data-using-afnetworking/">How to Post Json Data Using AFNetworking</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-09-26T21:07:00+08:00" pubdate data-updated="true">Sep 26, 2012 21:07:00</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This should be easy but cost me some time to figure it out.</p>
+
+<p>AFNetworking has a ivar <code>parameterEncoding</code> that need to be set explicitly to <code>AFJSONParameterEncoding</code> and everything works as it should.</p>
+
+<script src="https://gist.github.com/3714727.js"> </script>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/page/2/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section class="">
+  <h1>
+    Fawkes Wei
+  </h1>
+  <p>Developer at <a href="http://www.gogolook.com.tw/">Gogolook Co., Inc.</a></p>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/04/13/using-fabric-to-deploy-python-web-apps/">使用 Fabric 自動佈署 Flask App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/26/assertions/">Assertions</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/21/markdown-intro/">Markdown 簡介</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/">Crashlytics: Crash Reporting Service for iOS Apps</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/">GoogleMapsKit - Launch Google Maps for iPhone From Your App</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("fawkeswei", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/fawkeswei" class="twitter-follow-button" data-show-count="false">Follow @fawkeswei</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105244663711028732443?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - fawkeswei -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> and <a href="http://github.com">Github</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fawkeswei-blog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

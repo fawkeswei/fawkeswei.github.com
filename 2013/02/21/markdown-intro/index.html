@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Markdown 簡介 - fawkeswei's blog</title>
+  <meta name="author" content="fawkeswei">
+
+  
+  <meta name="description" content="Markdown 的目的就是要提供一種語法，容易讀、容易寫、還能輕鬆轉換成 html。因此 Markdown 完全由文字和標點符號所組成，不會出現 &lt;h2&gt;標題&lt;/h2&gt; 這種東西。舉個簡單的例子，底下大約 10 行的文字，即使第一次看到 Markdown &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://fawkeswei.github.com/2013/02/21/markdown-intro/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/fawkeswei" rel="alternate" title="fawkeswei's blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
+
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-37320586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">fawkeswei's blog</a></h1>
+  
+    <h2>Best Practice Makes Perfect</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="http://feeds.feedburner.com/fawkeswei" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:fawkeswei.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+<!--   <li><a href="http://www.flickr.com/photos/fawkeswei/">Photography</a></li> -->
+  <li><a href="/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Markdown 簡介</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-21T22:05:00+08:00" pubdate data-updated="true">Feb 21, 2013 22:05:00</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Markdown 的目的就是要提供一種語法，容易讀、容易寫、還能輕鬆轉換成 html。因此 Markdown 完全由文字和標點符號所組成，不會出現 <code>&lt;h2&gt;標題&lt;/h2&gt;</code> 這種東西。舉個簡單的例子，底下大約 10 行的文字，即使第一次看到 Markdown 文件的人應該都能輕易看懂。</p>
+
+<pre><code>##標題
+###副標題
+
+內容、**粗體**、*鞋體* 
+
+1. item 1
+2. item 2
+</code></pre>
+
+<p>轉換成 html 的成果如下，格式漂亮也完全不需要 rich text editor 多方便！</p>
+
+<!-- more -->
+
+
+<h2>標題</h2>
+
+<h3>副標題</h3>
+
+<p>內容、<strong>粗體</strong>、<em>鞋體</em></p>
+
+<ol>
+<li>item 1</li>
+<li>item 2</li>
+</ol>
+
+
+<h3>什麼情況會用到 Markdown？</h3>
+
+<p>我自已平常會用到的地方還不少，幾乎是天天都會用 Markdown 寫些東西。</p>
+
+<ul>
+<li>在 <a href="http://dayoneapp.com">DayOne</a> 裡面用 Markdown 寫日記</li>
+<li>寫部落格 (這一篇就是用 Markdown 寫的)</li>
+<li>Github Repo 的 <a href="https://github.com/AFNetworking/AFNetworking/blob/master/README.md">README</a>, comments, wiki 等等</li>
+<li><a href="http://trello.com">Trello</a> 卡片的描述</li>
+</ul>
+
+
+<h3>Markdown 編輯器</h3>
+
+<p>雖然說 Markdown 直接用純文字編輯器就可以寫了，不過有好用的工具寫起來會更順手。有使用 Mac 的人推薦使用 <a href="http://mouapp.com/">Mou</a>，還有這個網頁版的 <a href="http://dillinger.io/#">dillinger</a>。都是免費的，喜歡的話也可以贊助開發者（不是我開發的）。</p>
+
+<blockquote><p>Learn Markdown Today!</p></blockquote>
+
+<p>註：完整語法可以參考<a href="http://markdown.tw/">這裡</a>或是<a href="http://daringfireball.net/projects/markdown/">原文版</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">fawkeswei</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-21T22:05:00+08:00" pubdate data-updated="true">Feb 21, 2013 22:05:00</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categories/markdown/'>markdown</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://fawkeswei.github.com/2013/02/21/markdown-intro/" data-via="fawkeswei" data-counturl="http://fawkeswei.github.com/2013/02/21/markdown-intro/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/" title="Previous Post: Crashlytics: Crash Reporting Service for iOS Apps">&laquo; Crashlytics: Crash Reporting Service for iOS Apps</a>
+      
+      
+        <a class="basic-alignment right" href="/2013/02/26/assertions/" title="Next Post: Assertions">Assertions &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section class="">
+  <h1>
+    Fawkes Wei
+  </h1>
+  <p>Developer at <a href="http://www.gogolook.com.tw/">Gogolook Co., Inc.</a></p>
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/04/13/using-fabric-to-deploy-python-web-apps/">使用 Fabric 自動佈署 Flask App</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/26/assertions/">Assertions</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/21/markdown-intro/">Markdown 簡介</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/01/28/crashlytics-crash-reporting-service-for-ios-apps/">Crashlytics: Crash Reporting Service for iOS Apps</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/12/17/googlemapskit-launch-google-maps-for-iphone-from-your-app/">GoogleMapsKit - Launch Google Maps for iPhone From Your App</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("fawkeswei", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/fawkeswei" class="twitter-follow-button" data-show-count="false">Follow @fawkeswei</a>
+  
+</section>
+
+
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/105244663711028732443?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - fawkeswei -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> and <a href="http://github.com">Github</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'fawkeswei-blog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://fawkeswei.github.com/2013/02/21/markdown-intro/';
+        var disqus_url = 'http://fawkeswei.github.com/2013/02/21/markdown-intro/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: octopress | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress customizations after install]]></title>
+    <link href="http://fawkeswei.github.com/2012/09/19/octopress-customizations-after-install/"/>
+    <updated>2012-09-19T20:50:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2012/09/19/octopress-customizations-after-install</id>
+    <content type="html"><![CDATA[<ul>
+<li>Remove blog subfolder
+
+<ul>
+<li><code>permalink: /:year/:month/:day/:title/</code></li>
+<li><code>category_dir: categories</code></li>
+<li><code>pagination_dir: #leave it blank</code></li>
+<li>in <code>source/index.html</code> <code>&lt;a href="http://fawkeswei.github.com/archives"&gt;Blog Archives&lt;/a&gt;</code></li>
+</ul>
+</li>
+<li>Change theme
+
+<ul>
+<li>in <code>sass/base/_theme.css</code> <code>sass/custom/_colors.scss</code></li>
+<li>awesome <a href="http://subtlepatterns.com/">repeatable patterns</a></li>
+<li>nice <a href="http://hslpicker.com">color picker</a></li>
+</ul>
+</li>
+<li>Setup CNAME (for github pages)
+
+<ul>
+<li>beware that subpath auto set via <code>rake setup_github_pages</code></li>
+</ul>
+</li>
+<li>Open new post with default editor
+
+<ul>
+<li>in Rakefile add <code>foo = `open #{filename}`</code> in <code>task :new_post</code></li>
+</ul>
+</li>
+<li>Setup Feedburner</li>
+</ul>
+
+
+<p>reference:</p>
+
+<p><a href="http://www.moncefbelyamani.com/how-to-install-and-configure-octopress-on-a-mac/">How to install and configure octopress on a mac</a></p>
+
+<p><a href="http://blog.whsienc.net/blog/2012/03/03/how-to-install-octopress-on-mac-lion">Mac OSX Lion 下安裝 Octopress</a></p>
+]]></content>
+  </entry>
+  
+</feed>

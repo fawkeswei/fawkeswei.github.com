@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: python | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/python/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[使用 Fabric 自動佈署 Flask App]]></title>
+    <link href="http://fawkeswei.github.com/2013/04/13/using-fabric-to-deploy-python-web-apps/"/>
+    <updated>2013-04-13T22:50:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2013/04/13/using-fabric-to-deploy-python-web-apps</id>
+    <content type="html"><![CDATA[<p>最近用 <a href="flask.pocoo.org">Flask</a> 寫了 <a href="http://whocall.com">WhosCall 網頁版</a>，基於想偷懶的理由而找了一個工具可以很方便佈署到伺服器上，那就是 <a href="http://docs.fabfile.org/">Fabric</a>。它可以很方便在本機端、伺服器上執行指令 &amp; 上傳檔案，設定起來也很簡單。</p>
+
+<h3>基本使用方法</h3>
+
+<ol>
+<li>安裝 <code>pip install fabric</code></li>
+<li>新增一個檔案 <code>fabfile.py</code> （下面是一個簡單的範例）</li>
+</ol>
+
+
+<!-- more -->
+
+
+<pre><code>    from fabric.api import *
+
+    env.user = 'username'
+    env.hosts = ['server1.com', 'server2.com']
+
+    def deploy():
+        # pack files
+        local('zip -r build/ upload.zip')
+        # upload to server
+        put('build/upload.zip', 'path_on_server/upload.zip')
+        # unpack files
+        run('unzip -o upload.zip')
+        # run app
+        run('script to start up your app')
+</code></pre>
+
+<p>以後每次要佈署 <code>fab deploy</code> 就可以收工了！</p>
+
+<p>除了上面示範基本的佈署之外，也可以順便執行一些例行事務，例如新增 git tag 或是 git push。當然也可以定義其他 method 執行任何重複性的工作。煩人的重複性工作就交給電腦自動化完成吧，這樣就可以更專心在人腦才能完成的事情上了！</p>
+
+<p>更詳細的可以參考 <a href="http://flask.pocoo.org/docs/patterns/fabric/">Flask 官方文件</a>或是 <a href="http://docs.fabfile.org/">Fabric 文件</a></p>
+]]></content>
+  </entry>
+  
+</feed>

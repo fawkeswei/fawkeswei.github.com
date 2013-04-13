@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: markdown | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/markdown/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Markdown 簡介]]></title>
+    <link href="http://fawkeswei.github.com/2013/02/21/markdown-intro/"/>
+    <updated>2013-02-21T22:05:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2013/02/21/markdown-intro</id>
+    <content type="html"><![CDATA[<p>Markdown 的目的就是要提供一種語法，容易讀、容易寫、還能輕鬆轉換成 html。因此 Markdown 完全由文字和標點符號所組成，不會出現 <code>&lt;h2&gt;標題&lt;/h2&gt;</code> 這種東西。舉個簡單的例子，底下大約 10 行的文字，即使第一次看到 Markdown 文件的人應該都能輕易看懂。</p>
+
+<pre><code>##標題
+###副標題
+
+內容、**粗體**、*鞋體* 
+
+1. item 1
+2. item 2
+</code></pre>
+
+<p>轉換成 html 的成果如下，格式漂亮也完全不需要 rich text editor 多方便！</p>
+
+<!-- more -->
+
+
+<h2>標題</h2>
+
+<h3>副標題</h3>
+
+<p>內容、<strong>粗體</strong>、<em>鞋體</em></p>
+
+<ol>
+<li>item 1</li>
+<li>item 2</li>
+</ol>
+
+
+<h3>什麼情況會用到 Markdown？</h3>
+
+<p>我自已平常會用到的地方還不少，幾乎是天天都會用 Markdown 寫些東西。</p>
+
+<ul>
+<li>在 <a href="http://dayoneapp.com">DayOne</a> 裡面用 Markdown 寫日記</li>
+<li>寫部落格 (這一篇就是用 Markdown 寫的)</li>
+<li>Github Repo 的 <a href="https://github.com/AFNetworking/AFNetworking/blob/master/README.md">README</a>, comments, wiki 等等</li>
+<li><a href="http://trello.com">Trello</a> 卡片的描述</li>
+</ul>
+
+
+<h3>Markdown 編輯器</h3>
+
+<p>雖然說 Markdown 直接用純文字編輯器就可以寫了，不過有好用的工具寫起來會更順手。有使用 Mac 的人推薦使用 <a href="http://mouapp.com/">Mou</a>，還有這個網頁版的 <a href="http://dillinger.io/#">dillinger</a>。都是免費的，喜歡的話也可以贊助開發者（不是我開發的）。</p>
+
+<blockquote><p>Learn Markdown Today!</p></blockquote>
+
+<p>註：完整語法可以參考<a href="http://markdown.tw/">這裡</a>或是<a href="http://daringfireball.net/projects/markdown/">原文版</a></p>
+]]></content>
+  </entry>
+  
+</feed>

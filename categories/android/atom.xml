@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Android | fawkeswei's blog]]></title>
+  <link href="http://fawkeswei.github.com/categories/android/atom.xml" rel="self"/>
+  <link href="http://fawkeswei.github.com/"/>
+  <updated>2013-04-13T23:56:03+08:00</updated>
+  <id>http://fawkeswei.github.com/</id>
+  <author>
+    <name><![CDATA[fawkeswei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PinCall for iOS/Android「搜尋篇」]]></title>
+    <link href="http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search/"/>
+    <updated>2012-11-11T20:28:00+08:00</updated>
+    <id>http://fawkeswei.github.com/2012/11/11/pincall-for-ios-slash-android-part-one-search</id>
+    <content type="html"><![CDATA[<p><img class="center" src="https://lh4.googleusercontent.com/-U1rVqcl0tak/UJ9iQ_PJx4I/AAAAAAAANDg/cX4n4IZUDjc/s640/IMG_0548.PNG" title="PinCall on iPhone 5" ></p>
+
+<p><a href="http://pincall.me">PinCall</a> 是我進 <a href="http://www.gogolook.com.tw">Gogolook Inc.</a> 之後的第一個推出的產品，自己寫的東西當然要來自賣自誇一下囉。</p>
+
+<h2>PinCall 主打：超強搜尋</h2>
+
+<p>不管你在哪裡，不管是已經打定主意要吃王品，或者只是突然想吃日式料理，<a href="http://pincall.me">PinCall</a> 都可以迅速幫你找到！不囉嗦直接看實際用起來的結果吧！</p>
+
+<h4>精準找出公館附近所有的星巴克</h4>
+
+<p><img class="center" src="https://lh6.googleusercontent.com/-h1PBE6q6qzY/UJ9mSQkF-xI/AAAAAAAANEk/xDUi4M1WVjQ/s640/IMG_0561.PNG" title="搜尋公館附近的星巴克" ></p>
+
+<!-- more -->
+
+
+<h4>當然也可以用大分類去搜尋，例如：附近有賣生魚片的餐廳、忠孝東路附近的拉麵、公館附近的吃到飽等等</h4>
+
+<ul>
+<li><p>附近有賣生魚片的餐廳
+<img class="center" src="https://lh4.googleusercontent.com/-rIysFjGxMQs/UJ9isBvYavI/AAAAAAAANDo/7O7tXiqVp1Y/s640/IMG_0425.PNG" title="搜尋附近有賣生魚片的餐廳" ></p></li>
+<li><p>忠孝東路附近好吃的拉麵
+<img class="center" src="https://lh3.googleusercontent.com/-vUxdLo2VN-E/UJ9nj0sM5XI/AAAAAAAANEw/muilbS4dqso/s640/IMG_0563.PNG" title="搜尋忠孝東路附近好吃的拉麵" ></p></li>
+<li><p>公館附近的吃到飽
+<img class="center" src="https://lh5.googleusercontent.com/-THXvLc1qygE/UJ9nj3mqn4I/AAAAAAAANEs/v7fK_oDNXVA/s640/IMG_0562.PNG" title="搜尋公館附近的吃到飽" ></p></li>
+</ul>
+
+
+<h4>其實不只是吃的，基本上打什麼東西都可以搜尋得到，銀行、眼科、書店也都可以找的的到！</h4>
+
+<ul>
+<li><p>敦化南路附近的銀行
+<img class="center" src="https://lh6.googleusercontent.com/-OTz6loGpA3E/UJ9qTdnNVmI/AAAAAAAANFQ/7MXtF8vBWMk/s640/IMG_0565.PNG" title="搜尋敦化南路附近的銀行" ></p></li>
+<li><p>和平東路附近的眼科
+<img class="center" src="https://lh3.googleusercontent.com/-OiqbUbhOkTc/UJ9qTGfDvFI/AAAAAAAANFM/VDHB4Y3EV40/s640/IMG_0564.PNG" title="搜尋和平東路附近的眼科" ></p></li>
+<li><p>敦化南路附近的書店
+<img class="center" src="https://lh3.googleusercontent.com/-wc1iAy8r504/UJ9qTFCLvrI/AAAAAAAANFU/iGrpaB4Y0zc/s640/IMG_0566.PNG" title="搜尋敦化南路附近的書店" ></p></li>
+</ul>
+
+
+<h4>你以為只有這樣嗎？還有更厲害的</h4>
+
+<ul>
+<li><p>完全不知道有什麼吃的，直接打一個吃就搞定！
+<img class="center" src="https://lh5.googleusercontent.com/-zWcYXxgDZfI/UJ9qUNDVuwI/AAAAAAAANFg/B2KRJaa0eIs/s640/IMG_0568.PNG" title="搜尋南澳附近好吃的" ></p></li>
+<li><p>在公館午餐可以吃什麼呢？
+<img class="center" src="https://lh5.googleusercontent.com/-llQ1uo4wUHw/UJ9qT7NuIAI/AAAAAAAANFY/YgHpNEDKEPI/s640/IMG_0567.PNG" title="搜尋在公館附近午餐可以吃什麼呢？" ></p></li>
+</ul>
+
+
+<h4>搜尋的結果點進去就是整理好的網誌、網頁，還可以直接打電話訂位或是看地圖，超級方便！</h4>
+
+<p><img class="center" src="https://lh4.googleusercontent.com/-NpOcWfYm1TQ/UJ9xBc7_KoI/AAAAAAAANGQ/kLxmpQgNdR8/s640/IMG_0569.PNG" title="福岡拉麵詳細資料" ></p>
+
+<h2>這麼好用還不快下載！</h2>
+
+<p><a href="https://itunes.apple.com/tw/app/pincall/id554578359"><img src="https://lh6.googleusercontent.com/-6Nqi9Bfsn9E/UJ-CBqsIjsI/AAAAAAAANGg/5G74Cd74Ass/s400/Available_on_the_App_Store_%2528black%2529.png" alt="iTunes" /></a></p>
+
+<p><a href="https://play.google.com/store/apps/details?id=gogolook.pincall2"><img src="https://lh5.googleusercontent.com/-xdPXkpfbNis/UJ-C41X-y2I/AAAAAAAANGo/kRQug5C-pqo/s800/en_generic_rgb_wo_60.png" alt="Google Play" /></a></p>
+
+<p><a href="http://pincall.me">官方網站</a></p>
+
+<p>這只是 <a href="http://pincall.me">PinCall</a> 的一小部分而已，還有更強大的功能下次再繼續介紹，趕快先去玩看看 <a href="http://pincall.me">PinCall</a> 吧！</p>
+]]></content>
+  </entry>
+  
+</feed>
