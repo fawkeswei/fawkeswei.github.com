@@ -4,7 +4,7 @@
   <title><![CDATA[fawkeswei's blog]]></title>
   <link href="http://blog.fawkeswei.com/atom.xml" rel="self"/>
   <link href="http://blog.fawkeswei.com/"/>
-  <updated>2013-04-14T00:01:06+08:00</updated>
+  <updated>2013-07-21T13:06:15+08:00</updated>
   <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[WhatsAppKit - Integrate WhatsApp Into Your App]]></title>
+    <link href="http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/"/>
+    <updated>2013-07-21T13:00:00+08:00</updated>
+    <id>http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app</id>
+    <content type="html"><![CDATA[<p>WhatsApp recently added support for <a href="http://www.whatsapp.com/faq/en/iphone/23559013">custom URL scheme support</a>, so I wrote a little wrapper called <a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> to add support for WhatsApp in all my apps. <a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> handles urlencoding and optional parameter for you, great for keeping code clean. A demo project is also included in the <a href="https://github.com/fawkeswei/WhatsAppKit/">Github repo</a> as a working example.</p>
+
+<h3>Install</h3>
+
+<p>Two ways to install. The first one is recommended.</p>
+
+<ul>
+<li>Use <a href="http://www.cocoapods.org/">Cocoapods</a>. Just add <code>pod 'WhatsAppKit', '1.0.0'</code> to your Podfile.</li>
+<li>Simply drag <code>WhatsAppKit</code> folder into your Xcode project.</li>
+</ul>
+
+
+<h3>Usage</h3>
+
+<p>Test if WhatsApp for iPhone is installed</p>
+
+<pre><code>if ([WhatsAppKit isWhatsAppInstalled]) {
+    // WhatsApp Installed!
+}
+</code></pre>
+
+<p>Launch WhatsApp</p>
+
+<pre><code>[WhatsAppKit launchWhatsAppWithMessage:@"joga bonito"];
+</code></pre>
+
+<h3>License</h3>
+
+<p><a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> is available under the MIT license.</p>
+
+<blockquote><blockquote><p>Happy Coding!</p></blockquote></blockquote>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[使用 Fabric 自動佈署 Flask App]]></title>

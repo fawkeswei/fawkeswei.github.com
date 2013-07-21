@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Gogolook - fawkeswei's blog</title>
+  <title>WhatsAppKit - Integrate WhatsApp Into Your App - fawkeswei's blog</title>
   <meta name="author" content="fawkeswei">
 
   
-  <meta name="description" content="Category: Gogolook">
+  <meta name="description" content="WhatsApp recently added support for custom URL scheme support, so I wrote a little wrapper called WhatsAppKit to add support for WhatsApp in all my &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.fawkeswei.com/categories/gogolook/">
+  <link rel="canonical" href="http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -79,50 +79,117 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Gogolook</h1>
+    
+      <h1 class="entry-title">WhatsAppKit - Integrate WhatsApp Into Your App</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-21T13:00:00+08:00" pubdate data-updated="true">Jul 21, 2013 13:00:00</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>WhatsApp recently added support for <a href="http://www.whatsapp.com/faq/en/iphone/23559013">custom URL scheme support</a>, so I wrote a little wrapper called <a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> to add support for WhatsApp in all my apps. <a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> handles urlencoding and optional parameter for you, great for keeping code clean. A demo project is also included in the <a href="https://github.com/fawkeswei/WhatsAppKit/">Github repo</a> as a working example.</p>
 
-  
-  <h2>2012</h2>
+<h3>Install</h3>
 
-<article>
-  
-<h1><a href="/2012/12/13/punapp-install-pack-4-pincall/">PunApp InstALL | Pack 4 - PinCall 分享</a></h1>
-<time datetime="2012-12-13T01:37:00+08:00" pubdate><span class='month'>Dec</span> <span class='day'>13</span> <span class='year'>2012</span></time>
+<p>Two ways to install. The first one is recommended.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/gogolook/'>Gogolook</a>, <a class='category' href='/categories/pincall/'>PinCall</a></span>
-</footer>
+<ul>
+<li>Use <a href="http://www.cocoapods.org/">Cocoapods</a>. Just add <code>pod 'WhatsAppKit', '1.0.0'</code> to your Podfile.</li>
+<li>Simply drag <code>WhatsAppKit</code> folder into your Xcode project.</li>
+</ul>
 
 
-</article>
+<h3>Usage</h3>
 
+<p>Test if WhatsApp for iPhone is installed</p>
 
+<pre><code>if ([WhatsAppKit isWhatsAppInstalled]) {
+    // WhatsApp Installed!
+}
+</code></pre>
 
-<article>
-  
-<h1><a href="/2012/11/11/pincall-for-ios-slash-android-part-one-search/">PinCall for iOS/Android「搜尋篇」</a></h1>
-<time datetime="2012-11-11T20:28:00+08:00" pubdate><span class='month'>Nov</span> <span class='day'>11</span> <span class='year'>2012</span></time>
+<p>Launch WhatsApp</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/categories/android/'>Android</a>, <a class='category' href='/categories/gogolook/'>Gogolook</a>, <a class='category' href='/categories/pincall/'>PinCall</a>, <a class='category' href='/categories/ios/'>iOS</a></span>
-</footer>
+<pre><code>[WhatsAppKit launchWhatsAppWithMessage:@"joga bonito"];
+</code></pre>
 
+<h3>License</h3>
 
-</article>
+<p><a href="https://github.com/fawkeswei/WhatsAppKit/">WhatsAppKit</a> is available under the MIT license.</p>
 
+<blockquote><blockquote><p>Happy Coding!</p></blockquote></blockquote>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">fawkeswei</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-21T13:00:00+08:00" pubdate data-updated="true">Jul 21, 2013 13:00:00</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/" data-via="fawkeswei" data-counturl="http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2013/04/13/using-fabric-to-deploy-python-web-apps/" title="Previous Post: 使用 Fabric 自動佈署 Flask App">&laquo; 使用 Fabric 自動佈署 Flask App</a>
+      
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -210,7 +277,10 @@
       var disqus_shortname = 'fawkeswei-blog';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/';
+        var disqus_url = 'http://blog.fawkeswei.com/2013/07/21/whatsappkit-integrate-whatsapp-into-your-app/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
