@@ -4,7 +4,7 @@
   <title><![CDATA[fawkeswei's blog]]></title>
   <link href="http://blog.fawkeswei.com/atom.xml" rel="self"/>
   <link href="http://blog.fawkeswei.com/"/>
-  <updated>2013-07-21T13:06:15+08:00</updated>
+  <updated>2013-07-21T13:08:39+08:00</updated>
   <id>http://blog.fawkeswei.com/</id>
   <author>
     <name><![CDATA[fawkeswei]]></name>
@@ -28,6 +28,9 @@
 <li>Use <a href="http://www.cocoapods.org/">Cocoapods</a>. Just add <code>pod 'WhatsAppKit', '1.0.0'</code> to your Podfile.</li>
 <li>Simply drag <code>WhatsAppKit</code> folder into your Xcode project.</li>
 </ul>
+
+
+<!-- more -->
 
 
 <h3>Usage</h3>
